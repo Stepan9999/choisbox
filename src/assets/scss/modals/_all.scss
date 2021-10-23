@@ -1,0 +1,20 @@
+@import "menu";
+@import "search";
+@import "basket-modal";
+
+.modal_bg {
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	position: absolute;
+	top:  80px ;
+	left: 0;
+	z-index: 20;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.3s, opacity 0.3s;
+	&.active {
+		visibility: visible;
+		opacity: 1;
+	}
+}

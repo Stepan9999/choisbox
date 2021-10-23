@@ -1,0 +1,28 @@
+.welcome{
+    margin-top:  148px;
+    h1{
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 88px;
+
+    }
+    p{
+        margin: 50px 0 70px ;
+    }
+    nav.flex_sb{
+        width: 31.52%;
+        margin-top: 170px;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
+.welcome_left{
+    width: 52.86%;
+}
+.welcome_right{
+    img.lollipops{
+        margin-top: 65px;
+        margin-right: 80px;
+    }
+}

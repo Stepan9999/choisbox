@@ -1,0 +1,19 @@
+.brand-page{
+    .title{
+        display: flex;
+        justify-content: space-between;
+        p{
+            margin: auto 15px !important;
+            padding-bottom: 10px;
+            &.mod{
+                padding-bottom: 0;
+                padding-top: 17px;
+            }
+        }
+    }
+    .title_wrap{
+        display: flex;
+       
+        
+    }
+}

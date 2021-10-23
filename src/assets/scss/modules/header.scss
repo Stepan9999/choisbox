@@ -1,0 +1,32 @@
+header {
+    padding-top: 20px;
+    .container{
+        max-width: 1560px;
+    }
+}
+.header_link_wrap{
+    cursor: pointer;
+    span{
+        margin-left: 12px;
+        vertical-align: middle;
+    }
+    &button{
+        background-color: none;
+    }
+}
+.header_right{
+    width: 15%;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.header_center{
+    font-weight: bold;
+    font-size: 24px;
+    a{
+        color: $danger-color ;
+        &:hover{
+            color: #911525;
+        }
+    }
+}

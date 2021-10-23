@@ -1,0 +1,148 @@
+#basket-modal{
+    &.modal_bg{
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+    }
+     .container{
+        background-color: #F3E9E3;
+        height: 100%;
+        max-width: 580px;
+        opacity: 10;
+        margin: 0 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0 24px;
+        h2{
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            margin-left: 32px;      
+        }
+        .button_type-none{
+            margin-right: 32px;
+        }
+        &.top{
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+
+        }
+        &.bottom{
+            border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+            .button_type-one{
+                margin-right: 32px;
+                padding: 13px 30px;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+    
+}
+.basket_total-title{
+    margin-left: 32px;
+}
+.title-total{
+    font-weight: bold;
+    #total-priсe{
+        color: #CA0F18;
+        margin-left: 6px;
+    }
+    #total-weight{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 6px;
+        color: rgba($color: #000000, $alpha: 0.7);
+    }
+}
+.title-order{
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+    color: rgba($color: #000000, $alpha: 0.7);
+}
+.products-wrapper{
+    padding: 0 32px;
+    margin-bottom: 16px;
+}
+.product-wrap{
+    background-color: #fff;
+    border-radius: 16px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        height: 70px;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+    }
+}
+.product_img-wrap{
+    width: 20.3%;
+    border-right: 1px solid rgba($color: #000000, $alpha: 0.1);
+}
+.product_title-wrap{
+    width: 34.5%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: auto;
+}
+.product_price{
+    color: #CA0F18;
+    span{
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba($color: #000000, $alpha: 0.3);
+    }
+}
+.product_number-wrap{
+    margin: auto;
+    .button_type-one{
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        border-radius: 6px;
+        position: relative;
+        img{
+            width: 12px;
+            height: 12px;
+            margin-bottom: auto;
+        }
+    }
+}
+.product_number_input{    
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 68px;
+    margin: 0 -4px;
+    border: 1px solid #DADADA;
+    padding: 11px;
+    vertical-align: top;
+}
+.product-block{
+    margin-top: 24px;
+    flex-basis: 80%;
+    
+}
+.products-wrapper{
+    .button_type-none{
+        margin-right: 10px;
+        height: fit-content;
+        margin: auto;
+        padding: 0;
+        img{
+            margin: 0;
+            width: 13px;
+            height: 16px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.modal_bg#basket-modal
+  .container
+    .wrap.top
+      h2 Корзина
+      button.button_type-none  <img alt="закрить" src='../assets/img/close.svg'>
+    .product-block
+      .products-wrapper
+        .product-wrap
+          .product_img-wrap
+            img(alt="" src='../assets/img/animation/lollipops.png')
+          .product_title-wrap
+            p Kinder JOY
+            p.product_price 20.50 грн <span>100 г</span>
+          .product_number-wrap
+            button.button_type-one <img src='../assets/img/minus.svg'>
+            input.product_number_input(type="number")
+            button.button_type-one <img src='../assets/img/plus.svg'>
+          button.button_type-none
+            img(alt="" src='../assets/img/delete.svg')
+    .wrap.bottom
+      .basket_total-title
+        p.title-total Всего: <span id="total-priсe"> 820.00 грн</span> <span id="total-weight"> 4000 г</span>
+        p.title-order Минимальный заказ 150 грамм
+      button.button_type-one Оформить заказ
+
+

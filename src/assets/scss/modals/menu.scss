@@ -1,0 +1,31 @@
+#menu{
+    margin-top: 25px;
+    h1{
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 80px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+.menu_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.manufacturer{
+    background: #FFFFFF;
+    border-radius: 32px;
+    width: 23.25%;
+    height: 205px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrap{
+        text-align: center;
+        img{
+            margin-bottom: 32px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.about-us{
+    margin-top: 160px;
+    h2{
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 80px;
+    
+    }
+    
+}
+.container.advantage{
+  margin-top: 50px;  
+}
+.container.work{
+    margin-top: 160px;
+}
+.about-us_left{
+    width: 48%;
+    margin-right: 69px;
+    p{
+        margin-top: 25px ;
+    }
+}
+.about-us_right{
+    img{
+        width: 100%;
+    }
+    width: 52%;
+    height: 762.26px;
+    margin-top: -140px;
+}
+.about-us_cards{
+    margin-top: 60px;
+    :last-child{
+        margin-right: 0;
+    }
+}
+.about-us_card{
+    margin-right: 60px;
+    &.mod{
+        margin-right: 30px;
+        h3{
+            margin-top: 12px;
+        }
+    }
+    h2{
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 102px;
+        color: #CA0F18;
+        
+
+    }
+    h3{
+        margin: 31px 0 16px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+}
+

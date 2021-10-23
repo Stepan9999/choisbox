@@ -1,0 +1,28 @@
+.bottom-menu{
+    background-image: url("..//img/backgroundImgBottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 648px;
+    margin: 60px 0 32px;
+    .container{
+        padding-top: 100px;
+    }
+    .wrapper{
+        width: 47%;
+        margin: 0 0 auto auto ;
+        text-align: center;
+        min-height: fit-content;
+    }
+    h3{
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+    form.wrapper{
+        text-align: center;
+        margin: 40px auto 0 auto;
+        width: 69%;
+        height: 100%;
+    }
+}
