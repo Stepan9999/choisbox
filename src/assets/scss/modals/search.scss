@@ -4,6 +4,9 @@
         max-width: 1500px;
         text-align: right;
     }
+    .button_type-none{
+        display: none;        
+    }
 }
 .input-search{
     font-size: 16px;
@@ -14,4 +17,26 @@
     margin: 0 0 0 5px;
     padding: 14px 10px 15px 44px;
     outline: none;
+}
+@media (max-width: $ipadWidth){
+    #search{
+        .search{
+            background-color: #F3E9E3;
+            margin: 0 -20px;
+            padding: 8px 20px;
+            display: flex;
+
+        }
+        top: 0;
+        background: rgba(21, 21, 21, 0.5);
+        backdrop-filter: blur(16px);
+        .button_type-none{
+            display: block;
+            margin: 14px 0 0 16px;
+        }
+        .input-search{
+            font-size: 14px;
+            width: 100%;
+        }
+    } 
 }

@@ -1,7 +1,25 @@
 header {
-    padding-top: 20px;
     .container{
         max-width: 1560px;
+        &.mobile{
+            display: none;
+            .header_left{
+                width: 50%;
+                img{
+                    width: 109px;
+                }
+            }
+            .header_right{
+                width: 40%;
+                margin: auto 0;
+            }
+            .header_link_wrap{
+                img{
+                  width: 24px;
+                  height: 24px; 
+                }
+            }
+        }
     }
 }
 .header_link_wrap{
@@ -29,4 +47,15 @@ header {
             color: #911525;
         }
     }
+}
+@media (max-width: $ipadWidth){
+    header {
+    .container{
+        display: none;
+        &.mobile{
+            display: block;
+        }
+    }
+    }
+    
 }

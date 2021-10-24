@@ -1,5 +1,10 @@
 #menu{
+    background-color: #F3E9E3;
     margin-top: 25px;
+    font-weight: bold;
+    .button_type-none{
+        display: none;
+    }
     h1{
         font-weight: 900;
         font-size: 64px;
@@ -16,7 +21,7 @@
 .manufacturer{
     background: #FFFFFF;
     border-radius: 32px;
-    width: 23.25%;
+    width: 23.25%; 
     height: 205px;
     margin-bottom: 30px;
     display: flex;
@@ -26,6 +31,48 @@
         text-align: center;
         img{
             margin-bottom: 32px;
+        }
+        h2{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+}
+@media (max-width: $ipadWidth){
+    #menu{
+        .title{
+            display: flex;
+            justify-content: space-between;
+         }
+        margin-top: 0;
+        .button_type-none{
+            display: block;
+            margin-top: 4px;
+        }
+        h1{
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    .manufacturer{
+        font-size: 14px;
+        line-height: 17px;
+        width: 47%; 
+        height: 101px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        .wrap{
+            padding: 20px ;
+            img{
+                margin-bottom: 12px;
+                width: 50%;
+            }
+            h2{
+                font-size: 14px;
+                line-height: 17px;
+            }
         }
     }
 }

@@ -70,3 +70,51 @@
 
     }
 }
+@media (max-width: $ipadWidth){
+    .prod-wrap{
+    .prod-card{
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 32px;
+        margin-top: 20px;
+        border-radius: 12px;
+        .wrap{
+            padding: 16px;
+        }
+        h2{
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .prod-card_text{
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 20px;
+    
+    }
+    .prod-card_bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+        .button_type-one{
+            margin: 12px 0 0;
+            padding: 10px 20px;
+            width: 41.8%;
+            img{
+                vertical-align: top;
+                margin-right: 7px;
+            }
+        }
+    }
+    .price-wrap{
+        margin: auto 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .button_type-one{
+        margin: 20px 0 0;
+        width: 100%;
+    }
+
+} 
+}

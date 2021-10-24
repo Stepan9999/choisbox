@@ -19,7 +19,7 @@
 
 
 body {
-  margin: 20px 10px 32px;
+  margin: 20px 0 32px;
   padding: 0;
   font-family: $mainFont;
 	font-size: 20px;
@@ -71,6 +71,7 @@ ul, li {
   flex: 0 0 auto;
   margin: 0 auto;
   max-width: $desktopWidth;
+  &.work{}
 }
 
 .flex_sb{
@@ -110,6 +111,7 @@ ul, li {
 .button_type-none{
   background-color: transparent;
   cursor: pointer;
+  height: 100%;
 }
 .input-type-one{
   box-sizing: border-box;
@@ -154,3 +156,43 @@ input{
 ::placeholder {
     font-family:$mainFont;
   }
+@media (max-width: $ipadWidth){
+  body{
+    margin: 16px 0 20px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .container{
+    padding: 0  20px;
+  }
+  .button_type-one{
+    padding: 16px 24px;
+    border-radius: 12px;
+    line-height: 20px;
+  
+  }
+  .input-type-one{
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 16px;           
+  }
+  .brand-head{
+    margin-top: 20px;
+    h1{
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .title{
+      flex-direction: column;
+      padding-bottom: 20px;
+    p{
+      margin: 8px 0;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    }
+  }
+
+}

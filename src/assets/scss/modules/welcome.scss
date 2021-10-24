@@ -1,4 +1,6 @@
 .welcome{
+    min-height: 100vh;
+    height: 100%;
     margin-top:  148px;
     h1{
         font-weight: 900;
@@ -21,8 +23,38 @@
     width: 52.86%;
 }
 .welcome_right{
-    img.lollipops{
+    .lollipops{
         margin-top: 65px;
         margin-right: 80px;
+    }
+}
+@media (max-width: $ipadWidth){
+    .welcome{
+    margin-top:  10px;
+    h1{
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+    p{
+        margin: 16px 0 20px ;
+    }
+    .flex_sb{
+        flex-direction: column;
+    }
+    nav.flex_sb{
+        display: none;
+    }
+}
+    .welcome_left{
+        width: 100%;
+        padding-right: 2px;
+    }
+    .welcome_right{
+        .lollipops{
+            width: 213px;
+            margin: -25px auto 0 25%;
+
+        }
     }
 }

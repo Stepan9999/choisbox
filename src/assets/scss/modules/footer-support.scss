@@ -1,13 +1,14 @@
-.bottom-menu{
+.footer-support{
     background-image: url("..//img/backgroundImgBottom.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 648px;
     margin: 60px 0 32px;
     .container{
         padding-top: 100px;
     }
-    .wrapper{
+    .wrap{
         width: 47%;
         margin: 0 0 auto auto ;
         text-align: center;
@@ -19,10 +20,44 @@
         line-height: 80px;
         margin-bottom: 20px;
     }
-    form.wrapper{
+    .form-wrapper{
         text-align: center;
         margin: 40px auto 0 auto;
         width: 69%;
         height: 100%;
+    }
+}
+@media (max-width: $ipadWidth){
+    .footer-support{
+        background-position: 57%;
+        height: 394px;
+        margin: 40px 0 20px;
+        .container{
+            padding-top: 40px; 
+            .wrap{
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                P{
+                    padding: 0 20px;
+                    margin-bottom: 20px;
+                }
+                .btn_type-one{
+                    width: 100%;
+                }
+            }
+        }
+        h3{
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 12px;
+        }
+        .form-wrapper{
+            margin: 0;
+            width: 100%;
+            .button_type-one{
+                width: 100%; 
+            }
+        }
     }
 }

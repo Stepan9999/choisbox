@@ -13,7 +13,47 @@
     }
     .title_wrap{
         display: flex;
-       
+        .form-select{
+            width: 246px;
+            margin-left: 10px;
+            border-radius: 10px ;
+            padding: 14px 20px;
+            font-size: 16px;
+            line-height: 19px;
+            height: 48px;
+            background-image: url("..//img/arrow-down.png");
+            background-size: 23px 12px;    display: block;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-position: right 1.2rem center;
+            border: none;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
         
+    }
+}
+
+@media (max-width: $ipadWidth){
+    .brand-page{
+        .title{
+            p{
+                margin: 0 !important;
+                padding-bottom: 10px;
+                &.mod{
+                    padding-top: 8px;
+                }
+            }
+        }
+        .title_wrap{
+           flex-direction: column; 
+           margin-bottom: 0;
+           .form-select{
+               width: 100%;
+               margin: 0;
+           }
+        }
     }
 }
